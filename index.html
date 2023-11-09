@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="icon" type="image/png" href="resources/logo-h.png"/>
+    </head>
+    <title>Bryan Reisenleiter - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/a7e88c35c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------- Header  -->
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img id="logo" src="resources/logo.png" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer and future Game Programmer</p>
+            <h1>Hi, I'm <span>Bryan</span> <br> Welcome to my World</h1>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------- About  -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="resources/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I’m a young developer passionate about creating video games. I have knowledge in Front-End and Back-End and I’m currently learning the basics of video game programming. My goal is to become a professional video game developer and work on exciting projects that captivate players around the world. I hope you enjoy my work and will contact me to discuss your video game development projects.<br><br>
+                <br><br>
+                I hope that one day I will be able to achieve my dream, get into the industry and reach my guiding stars. ⭐✨
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Game Programmer Junior</span><br>Unreal Engine(C++), Unity(C#) and GameMaker(GML)</li>
+                        <li><span>Web Developer</span><br>HTML, CSS, PHP, JavaScript</li>
+                        <li><span>Adult Educator</span><br>Microsoft Office</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>CRP La Mollière | Berck-sur-Mer</span><br>Adult Educator</li>
+                        <li><span>AKT Jewels | Annecy</span><br>Web Dev</li>
+                        <li><span>Video Game | Home</span><br>22 years experience</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Professional Designation of Adult Educator</span><br>2023</li>
+                        <li><span>Professional Designation of Web Developer</span><br>2019</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------services  -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Game Programmation</h2>
+                <p>Programming is a huge passion of mine since I was young, I started doing little games in the likes of "Asteroids" and "Hotline Miami" for fun. Now I am learning C++ and C# by myself, in order to achieve more ambitious projects and expand my set of skills</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web developer</h2>
+                <p>I am thrilled to share my newfound passion for web development. It all started when I was introduced to the world of programming and the endless possibilities it offers. I was fascinated by the idea of creating something from scratch and bringing it to life</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Adult Educator</h2>
+                <p>I am thrilled to share my discovery of the world of training with you. It has been an exciting journey, and I have learned so much along the way. I have had the opportunity to train many people, and I am proud to say that I have done so with great success. I believe that training is a vital part of any organization, and I am passionate about helping others learn and grow.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <a href="https://neato-mate.itch.io/galactik-fight" target="_blank">
+                <video autoplay loop muted plays-inline class="back-video">
+                   <source src="resources/work-1.mp4" type="video/mp4"> 
+                </video>
+                <div class="layer">
+                    <h3>Galactik Fight</h3>
+                    <p>In the vast expanse of the cosmos, you are the lone pilot entrusted with the fate of the galaxy. Brace yourself for an interstellar adventure like never before! Engage in intense space battles, armed with powerful lasers and advanced weaponry. Dodge and weave through a relentless onslaught of alien enemies and deadly asteroids</p>
+                </div></a>
+            </div>
+            <div class="work">
+                <a href="https://docs.google.com/presentation/d/17VBchoea0mLBIio-bZJ7O3UziJwwTFbn1pBhIvhhskY/edit?usp=sharing" target="_blank">
+                    <video autoplay loop muted plays-inline class="back-video-2">
+                        <source src="resources/work-2.mp4" type="video/mp4"> 
+                     </video>
+                <div class="layer layer2">
+                    <h3>Jewelry Website</h3>
+                    <p>The artifacts on this link are remnants of a jewelry website that I created in collaboration with Marc Bouchez, a colleague from my training. The website was built using both front-end and back-end technologies and featured animations and online shopping capabilities. Unfortunately, the website had to be closed due to a production stoppage at the jewelry company.</p>
+                </div></a>
+            </div>
+            <div class="work">
+                <a href="https://docs.google.com/presentation/d/1Zptmte4W7ul49skQcuUHFaj5z52czmLWFsiqrMXr47I/edit?usp=sharing" target="_blank">
+                    <video autoplay loop muted plays-inline class="back-video-3">
+                        <source src="resources/work-3.mp4" type="video/mp4"> 
+                     </video>
+                <div class="layer layer3">
+                    <h3>Creation of training content</h3>
+                    <p>I am dedicated and produce high-quality work in creating engaging and comprehensive training content. Additionally, I am proficient in many of office software.</p>
+                </div></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>reisenleiter.dev@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>06 13 45 78 04</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/bryan-reisenleiter-1099a318b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Neato_Mate" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/neato_pro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="resources/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea type="text" name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Bryan Reisenleiter</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxaZSGCyL7FYopy3M2cQwvmPUZ-EoRf8UkxRXhmPMT5QdNGIpEU97JdNE7K16-Sq5y8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
