@@ -31,9 +31,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
-    width: 140px;
-}
 
 nav ul li{
     display: inline-block;
@@ -99,6 +96,7 @@ nav #logo{
 .about-col-2 p{
     margin-top: 20px;
     font-size: 20px;
+    text-align: justify;
 }
 
 .sub-title{
@@ -172,6 +170,9 @@ nav #logo{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+.services-list div p{
+    text-align: justify;
 }
 
 .services-list div:hover{
